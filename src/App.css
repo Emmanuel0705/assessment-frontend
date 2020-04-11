@@ -1,9 +1,10 @@
 body {
-  margin: auto;
-  background: #eaeaea;  
+  margin: auto; 
   font-family: 'Open Sans', sans-serif;
 }
-
+.title {
+  color: black;
+}
 .info p {
   text-align:center;
   color: #999;
@@ -18,7 +19,7 @@ body {
 }
 form h1 {
   font-size: 18px;
-  background: #F6AA93 none repeat scroll 0% 0%;
+  background: black;
   color: rgb(255, 255, 255);
   padding: 22px 25px;
   border-radius: 5px 5px 0px 0px;
@@ -31,14 +32,12 @@ form {
   border-radius: 5px;
   max-width:700px;
   width:100%;
-  margin: 5% auto;
+  margin: 10px auto;
   background-color: #FFFFFF;
   overflow: hidden;
+  box-shadow: 2px 1px 8px #ccc;
 }
 
-p span {
-  color: #F00;
-}
 
 p {
   margin: 0px;
@@ -60,20 +59,6 @@ input, select {
   margin-bottom: 15px;
   width: 75%;
   height: 40px;
-  float: left;
-  padding: 0px 15px;
-}
-
-a {
-  text-decoration:inherit
-}
-
-textarea {
-  border-radius: 0px 5px 5px 0px;
-  border: 1px solid #EEE;
-  margin: 0;
-  width: 75%;
-  height: 130px; 
   float: left;
   padding: 0px 15px;
 }
@@ -103,7 +88,7 @@ i {
 }
 
 .bouton-contact{
-  background-color: #81BDA4;
+  background:black;
   color: #FFF;
   text-align: center;
   width: 100%;
@@ -136,19 +121,4 @@ i {
   font-weight:400;
   font-size:13px;
   color: #DE5959;
-}
-
-#sendmessage {
-  border:1px solid #fff;
-  display:none;
-  text-align:center;
-  margin:10px 0;
-  font-weight:600;
-  margin-bottom:30px;
-  background-color: #EBF6E0;
-  color: #5F9025;
-  border: 1px solid #B3DC82;
-  padding: 13px 40px 13px 18px;
-  border-radius: 3px;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
 }

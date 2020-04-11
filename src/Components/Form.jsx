@@ -3,6 +3,8 @@ import React from "react"
 const Form = () => {
     // const [fromData,setFormData] = useState({name:"",population:""})
     return (
+        <div>
+            <h1 className="title">Covid-19 Estimator.</h1>
         <form>
          <h1>Fill the Below Form To Estimate Covid-19 Case in a certain area</h1>
             
@@ -55,9 +57,10 @@ const Form = () => {
 
         </div>
     </div>
-    <button data-go-estimate type="button" className="bouton-contact">Send</button>
+    <button data-go-estimate type="button" role="button" className="bouton-contact">Send</button>
         
-    </form> 
+    </form>
+    </div>
     )
 }
 export default Form
