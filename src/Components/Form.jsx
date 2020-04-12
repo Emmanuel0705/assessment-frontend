@@ -11,49 +11,49 @@ const Form = () => {
          <div className="contentform">
            
             <div className="leftcontact">
-                <div className="form-group">
+                <label className="form-group">
                     <p>Name<span>*</span></p>
                     <input data-population type="number" required />
-               </div> 
+               </label> 
     
-                <div className="form-group">
+                <label className="form-group">
                    <p>Reported Cases <span>*</span></p>
                     <input data-reported-cases type="text" id="prenom" required/>
-                </div>
+                </label>
     
-                <div className="form-group">
+                <label className="form-group">
                    <p>Time To Elapse<span>*</span></p>    
                    <input data-time-to-elapse type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
-                </div>  
+                </label>  
     
-                <div className="form-group">
+                <label className="form-group">
                   <p>Period Type <span>*</span></p>
                     <select data-period-type type="text" required>
                         <option value="days">days</option>
                         <option value="weeks">weeks</option>
                         <option value="months">months</option>
                    </select>
-                </div>  
+                </label>  
         </div>
     
         <div className="rightcontact">  
     
-          <div className="form-group">
+          <label className="form-group">
                 <p>Total hospital bed<span>*</span></p>
               <input data-total-hospital-beds type="text"required/>
-          </div>
-          <div className="form-group">
+          </label>
+          <label className="form-group">
                 <p>Population<span>*</span></p>
                 <input data-population type="number" required />
-         </div>
-         <div className="form-group">
+         </label>
+         <label className="form-group">
             <p>Average Daily Incone In USD<span>*</span></p>
             <input data-daily-income-in-usd type="number" required />
-         </div>
-         <div className="form-group">
+         </label>
+         <label className="form-group">
             <p>Average Daily Income Population<span>*</span></p>
             <input data-daily-income-population type="number" required />
-         </div>
+         </label>
 
         </div>
     </div>
